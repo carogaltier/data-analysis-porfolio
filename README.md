@@ -1,7 +1,7 @@
 # Data analysis with R porfolio
 
 ## **Mortality data in Argentina (2017 - 2019)**
- --- 
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Data source](#data-source)

@@ -47,3 +47,20 @@ In general, the younger the age group, the lower the amount of deaths (except wh
 The bar chart and table below show the amount of deaths per cause. The cause with the highest amount is 'Cardiovascular Diseases'.
 
 ![Deaths by Cause in Argentina in 2019](/img/group-of-causes-line-chart-19.svg "Deaths by Cause in Argentina in 2019")
+
+
+## Author
+
+**María Carolina González Galtier**
+
+- [Profile](https://github.com/carogaltier "María Carolina González Galtier")
+
+## License
+[GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
+
+## 🤝 Support
+
+Contributions, issues, and feature requests are welcome!
+
+Give a ⭐️ if you like this project!
+

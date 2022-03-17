@@ -1,0 +1,77 @@
+body {
+    min-height:100vh;
+}
+
+.header-img {
+    background: url(../img/header.jpg);
+    opacity: 0.95;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+nav .navbar-nav {
+    gap: 2rem;
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.img-fluid {
+    min-width: 550px;
+}
+
+.about-img {
+    min-width: 450px;
+}
+
+.col-img {
+    align-items: center;
+    display: flex;
+}
+
+.img-fluid.pie {
+    min-width: 350px;
+    max-width: 500px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.bg-1 {
+    background-color: #3caf85c9;
+}
+
+.bg-2 {
+    background-color: #fbae4ac9;
+}
+
+.bg-3 {
+    background-color: #309fdbc9;
+}
+
+.bg-4 {
+    background-color: #e95b54c9;
+}
+
+.about-me i {
+    margin-right: 1rem;
+}

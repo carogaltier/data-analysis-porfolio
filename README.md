@@ -10,7 +10,7 @@
 5. [Data cleaning process](#data-cleaning-process)
 
 ## Demo
-[Data analysis with R](https://carogaltier.github.io/data-analysis-porfolio/)
+[Live Demo](https://carogaltier.github.io/data-analysis-porfolio/)
 ## Introduction
 The following data analysis was done with R software as part of a portfolio. You will find information, tables and charts about mortality in Argentina in the period 2017 to 2019 inclusive. Data were disaggregated by cause of death, age, sex and province/jurisdiction.
 
@@ -30,7 +30,7 @@ Then then variables were converted as factor and recodified according to the dat
 Causes of death wew agreggate in 8 different group of cases (Infectious Diseases, Cardiovascular Diseases, Tumors,Respiratory Diseases, Digestive Diseases, Digestive Diseases, External Causes and Other Causes).
 All unspecified and missing values were removes as well as the category "Other countries".
 
-## overview of the content
+## Overview of the content
 ### Deaths by Province in Argentina in 2019
 Considering all the provinces/jurisdictions, in 2019 in Argentina there is a total population of 44,94 M people according to the World Bank. Considering all the provinces/jurisdictions, the total amount of deaths is 337.4 K. The following plot and table show how the number of deaths is distributed geographically.
 

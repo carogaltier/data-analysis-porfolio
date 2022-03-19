@@ -4,17 +4,20 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Data source](#data-source)
-3. [Libraries](#libraries)
-4. [Data cleaning process](#data-cleaning-process)
+2. [Demo](#demo)
+3. [Data source](#data-source)
+4. [Libraries](#libraries)
+5. [Data cleaning process](#data-cleaning-process)
 
+## Demo
+[Data analysis with R](https://carogaltier.github.io/data-analysis-porfolio/)
 ## Introduction
-The following data analysis was done with R software as part of a portfolio. You will find information, tables and charts about mortality in Argentina in the period 2017 to 2019 inclusive. The variables analyzed were Causes, Age, Sex and Province. 
+The following data analysis was done with R software as part of a portfolio. You will find information, tables and charts about mortality in Argentina in the period 2017 to 2019 inclusive. Data were disaggregated by cause of death, age, sex and province/jurisdiction.
 
 ## Data source
 The data come from the [Dirección de Estadísticas e Información de la Salud (DEIS)](https://www.argentina.gob.ar/salud/deis) an official source of healthcare data from Argentina.
 
-## Libraries
+## Packages
 - dplyr
 - forcats
 - stringr

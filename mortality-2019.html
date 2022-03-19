@@ -14,15 +14,15 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
     <!-- Styles -->   
     <link rel="stylesheet" href="css/style.css">
-    <title>"Mortality data in Argentina in 2019"</title>
+    <title>Mortality data in Argentina in 2019</title>
 </head>
 
 <body class="bg-light">
     <header>
         <div class="header-img jumbotron bg-cover text-white">
             <div class="header-title container text-center">
-                <h1 class="display-3 font-weight-bold">Data Analysis</h1>
-                <p class="lead mx-2">Portfolio using R - Mortality data in Argentina in 2017 - 2019</p>
+                <h1 class="display-3 font-weight-bold">Data Analytics</h1>
+                <p class="lead mx-2">Mortality data analysis using R - Argentina</p>
             </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -37,16 +37,13 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mortality-2019.html">Mortality 2019</a>
+                            <a class="nav-link" href="mortality-2017.html">Mortality 2017</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="mortality-2018.html">Mortality 2018</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mortality-2017.html">Mortality 2017</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about-data.html">About data</a>
+                            <a class="nav-link" href="mortality-2019.html">Mortality 2019</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about-me.html">About me</a>
@@ -59,15 +56,26 @@
 
 
     <div class="container p-4">
-        <h2 class="h1 py-4"><strong>Mortality data in Argentina 2019</strong></h2>
-        
+        <div class="row">
+            <h2 class="h1 py-4"><strong>Mortality data in Argentina in 2019</strong></h2>
+            <h3 class="py-2">Highlights</h3>    
+            <p class="lead"><i class="fa-solid fa-caret-right px-4"></i>In 2019 in Argentina total amount of deaths was <b>337.4 K</b> over a total population of 
+                <a href="https://data.worldbank.org/indicator/SP.POP.TOTL?locations=AR" target="_blank">44,94 M</a>. 
+            </p> 
+            <p class="lead"><i class="fa-solid fa-caret-right px-4"></i>Disaggregated by sex, the total amount of male deaths is slightly higher <b>(2.2%)</b> than the number of female deaths.
+            </p> 
+
+            <p class="lead"><i class="fa-solid fa-caret-right px-4"></i>In general, the younger the age group, the lower the amount of deaths 
+                (except when the youngest group is considered, due to relatively high mortality rates at early ages). 
+            </p> 
+            <p class="lead"><i class="fa-solid fa-caret-right px-4"></i>From all the group of causes, <b>'Cardiovascular Diseases'</b> is the one responsible of the highest amount of deaths.
+            </p>  
+
+        </div>
         <hr>
         <div class="row py-4 row-cols-1 row-cols-lg-2">
-            <h3 class="code-line py-2 w-100">Deaths by Province in Argentina in 2019</h3>
-            <p class="w-100">Considering all the provinces/jurisdictions, in 2019 in Argentina there is a total population of 44,94 M people according to the 
-            <a href="https://data.worldbank.org/indicator/SP.POP.TOTL?locations=AR" target="_blank">World Bank</a>. 
-            Considering all the provinces/jurisdictions, the total amount of deaths is <b>337.4 K</b>. The following plot and table show how the number of deaths is distributed geographically.</p> 
-
+            <h3 class="code-line py-2 w-100">Deaths by Province (Argentina, 2019)</h3>
+            
             <div class="col py-4">
                 <table id="regionTable19" class="table table-striped table-bordered" cellspacing="0" width="100%">
                     <thead><tr><th title="province">Province</th>
@@ -180,8 +188,7 @@
 
         <hr>
         <div class="row py-4 row-cols-1 row-cols-lg-2">
-            <h3 class="code-line py-2 w-100">Deaths by Sex in Argentina in 2019</h3>
-            <p class="w-100">The following pie chart and table show that the amount of male deaths is slightly higher <b>(2.2%)</b> than the number of female deaths.</p> 
+            <h3 class="code-line py-2 w-100">Deaths by Sex (Argentina, 2019)</h3>
             
             <div class="col py-4">
                 <table class="table table-striped table-bordered" cellspacing="0" width="100%">
@@ -213,11 +220,8 @@
 
         <hr>
         <div class="row py-4 row-cols-1 row-cols-lg-2">
-            <h3 class="code-line py-2 w-100">Deaths by Age Group in Argentina in 2019</h3>
-            <p class="w-100">In general, the younger the age group, the lower the amount of deaths 
-                (except when the youngest group is considered, due to relatively high mortality rates at early ages). 
-                The following bar chart and table show the distribution of deaths in the different age groups.</p> 
-
+            <h3 class="code-line py-2 w-100">Deaths by Age Group (Argentina, 2019)</h3>
+            
             <div class="col py-4">
                 <table id="ageGroupTable19" class="table table-striped table-bordered" cellspacing="0" width="100%">
                     <thead><tr><th title="AgeGroup">Age Group</th>
@@ -303,8 +307,8 @@
 
         <hr>
         <div class="row py-4 row-cols-1 row-cols-lg-2">
-            <h3 class="code-line py-2 w-100">Deaths by Cause in Argentina in 2019</h3>
-             <p class="w-100">The bar chart and table below show the amount of deaths per cause. The cause with the highest amount is <b>'Cardiovascular Diseases'</b>.</p>           
+            <h3 class="code-line py-2 w-100">Deaths by Cause (Argentina, 2019)</h3>
+    
             <div class="col py-4">
                 <table id="groupCausesTable19" class="table table-striped table-bordered" cellspacing="0" width="100%">
                     <thead><tr>

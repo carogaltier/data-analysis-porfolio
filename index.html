@@ -14,15 +14,15 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
     <!-- Styles -->   
     <link rel="stylesheet" href="css/style.css">
-    <title>"Data Analysis in R"</title>
+    <title>Data Analysis with R</title>
 </head>
 
 <body class="bg-light">
     <header>
         <div class="header-img jumbotron bg-cover text-white">
             <div class="header-title container text-center">
-                <h1 class="display-3 font-weight-bold">Data Analysis</h1>
-                <p class="lead mx-2">Portfolio using R - Mortality data in Argentina in 2017 - 2019</p>
+                <h1 class="display-3 font-weight-bold">Data Analytics</h1>
+                <p class="lead mx-2">Mortality data analysis using R - Argentina</p>
             </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -31,22 +31,18 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mortality-2019.html">Mortality 2019</a>
+                            <a class="nav-link" href="mortality-2017.html">Mortality 2017</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="mortality-2018.html">Mortality 2018</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="mortality-2017.html">Mortality 2017</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about-data.html">About data</a>
+                            <a class="nav-link" href="mortality-2019.html">Mortality 2019</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about-me.html">About me</a>
@@ -55,38 +51,27 @@
                 </div>
             </div>
         </nav>
-
     </header>
     
     <div class="container p-4">
+        <h2 class="h1 py-4"><strong>Introduction</strong></h2>
+        <p class="text-justify lead">This website includes information about mortality in Argentina from 2017 to 2019 inclusive. 
+            Data were disaggregated by cause of death, age, sex and province/jurisdiction.
+            Please refer to the <a href="https://github.com/carogaltier/data-analysis-porfolio" target="_blank">Github repository</a> for further information about the data analysis process and the documentation.</p>
+
+        <h3 class="pt-3">Data source</h3>
+        <p class="lead">The data come from the <a href="https://www.argentina.gob.ar/salud/deis" target="_blank">Dirección de Estadísticas e Información de la Salud (DEIS)</a> an official source of healthcare data from Argentina.</p>
         
-        <h2 class="h1 py-4"><strong>Mortality data in Argentina (2017 - 2019)</strong></h2>
-        <h3 class="code-line pt-3">Description</h3>
-        <p class="text-justify">In this website you could find information about mortality in Argentina from 2017 to 2019 inclusive. 
-            The variables analyzed were Causes, Age, Sex and Province.
-            In the "About data" section it's described the data collection, the data cleaning and the data analysis process. 
-            You may also find the data soruce information.  
-        </p>
+        <h3 class="pt-3">Software and Packages</h3>
+            <p class="lead my-1"><i class="fa-solid fa-caret-right px-4"></i>R Software</p>
+            <p class="lead my-1"><i class="fa-solid fa-caret-right px-4"></i>dplyr</p>
+            <p class="lead my-1"><i class="fa-solid fa-caret-right px-4"></i>forcats</p>
+            <p class="lead my-1"><i class="fa-solid fa-caret-right px-4"></i>stringr</p>
+            <p class="lead my-1"><i class="fa-solid fa-caret-right px-4"></i>tidyr</p>
+            <p class="lead my-1"><i class="fa-solid fa-caret-right px-4"></i>ggplot2</p>
+
         <div class="container-fluid py-3">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">             
-
-                    <a class="col nav-link" href="mortality-2019.html">
-                        <div class="card bg-1">
-                            <img class="card-img-top opacity-50" src="img/bg-1.jpg" alt="Digital global connection">
-                            <div class="card-block">
-                                <h5 class="card-title p-2 text-center text-white">Mortality in 2019</h5>
-                            </div>
-                        </div> 
-                    </a>
-
-                    <a class="col nav-link" href="mortality-2018.html">
-                        <div class="card bg-2">
-                            <img class="card-img-top opacity-50" src="img/bg-2.jpg" alt="Digital global connection">
-                            <div class="card-block">
-                                <h5 class="card-title p-2 text-center text-white">Mortality in 2018</h5>
-                            </div>
-                        </div> 
-                    </a>
+            <div class="row row-cols-1 row-cols-md-3">             
 
                     <a class="col nav-link" href="mortality-2017.html">
                         <div class="card bg-3">
@@ -97,14 +82,23 @@
                         </div> 
                     </a>  
 
-                    <a class="col nav-link" href="about-data.html">
-                        <div class="card bg-4">
-                            <img class="card-img-top opacity-50" src="img/bg-4.jpg" alt="Digital global connection">
+                    <a class="col nav-link" href="mortality-2018.html">
+                        <div class="card bg-2">
+                            <img class="card-img-top opacity-50" src="img/bg-2.jpg" alt="Digital global connection">
                             <div class="card-block">
-                                <h5 class="card-title p-2 text-center text-white">About data</h5>
+                                <h5 class="card-title p-2 text-center text-white">Mortality in 2018</h5>
                             </div>
                         </div> 
-                    </a>               
+                    </a>
+
+                    <a class="col nav-link" href="mortality-2019.html">
+                        <div class="card bg-1">
+                            <img class="card-img-top opacity-50" src="img/bg-1.jpg" alt="Digital global connection">
+                            <div class="card-block">
+                                <h5 class="card-title p-2 text-center text-white">Mortality in 2019</h5>
+                            </div>
+                        </div> 
+                    </a>            
             </div>
         </div>
 
@@ -118,7 +112,6 @@
                 <a class="btn btn-outline-light btn-floating m-1 rounded-circle" role="button" href="https://www.linkedin.com/in/carogaltier/" target="_blank" title="Maria Carolina Gonzalez Galtier linkedin website">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
-            
                 <a class="btn btn-outline-light btn-floating m-1 rounded-circle" role="button" href="https://www.carolinagonzalezgaltier.com/" target="_blank" title="Maria Carolina Gonzalez Galtier website">
                     <i class="fab fa-solid fa-globe"></i>
                 </a>

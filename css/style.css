@@ -58,6 +58,6 @@ footer {
     background-color: #e95b54c9;
 }
 
-.about-me i {
-    margin-right: 1rem;
+.about-me .img-fluid {
+    max-width: 350px;
 }
